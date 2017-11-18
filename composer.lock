@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/TonisOrmisson/yii2-emails-validator.git",
-                "reference": "5d30d061c393b8f187c5bb3937bdce1ecc0b0797"
+                "reference": "ac33f11d9523fff39b7fe969333c81ff2aaf96dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TonisOrmisson/yii2-emails-validator/zipball/5d30d061c393b8f187c5bb3937bdce1ecc0b0797",
-                "reference": "5d30d061c393b8f187c5bb3937bdce1ecc0b0797",
+                "url": "https://api.github.com/repos/TonisOrmisson/yii2-emails-validator/zipball/ac33f11d9523fff39b7fe969333c81ff2aaf96dd",
+                "reference": "ac33f11d9523fff39b7fe969333c81ff2aaf96dd",
                 "shasum": ""
             },
             "require": {
@@ -53,7 +53,7 @@
                 "validation",
                 "yii2"
             ],
-            "time": "2017-11-18 17:29:35"
+            "time": "2017-11-18 19:57:05"
         },
         {
             "name": "bower-asset/bootstrap",
