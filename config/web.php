@@ -5,13 +5,14 @@ $db = require __DIR__ . '/db.php';
 
 $config = [
     'id' => 'basic',
+    'defaultRoute' => '/emailsvalidator',
     'basePath' => dirname(__DIR__),
-    'bootstrap' => ['log','emailsvalidator'],
+    'bootstrap' => ['log'],
     'modules'=>[
         'emailsvalidator'=>[
             'class'=>'andmemasin\emailsvalidator\Module',
-            'accessPermissionName'=>'siteAdmin',
-            'maxInputKB' => 128,
+            'accessPermissionName'=>'?',
+            'maxInputKB' => 1,
         ],
 
     ],

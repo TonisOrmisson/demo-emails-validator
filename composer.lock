@@ -12,16 +12,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/TonisOrmisson/yii2-emails-validator.git",
-                "reference": "ca177bf9b4563111dfc17221ece4a017948cd062"
+                "reference": "ce90a2f24bc26a24dc82e824aed419c43811df92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TonisOrmisson/yii2-emails-validator/zipball/ca177bf9b4563111dfc17221ece4a017948cd062",
-                "reference": "ca177bf9b4563111dfc17221ece4a017948cd062",
+                "url": "https://api.github.com/repos/TonisOrmisson/yii2-emails-validator/zipball/ce90a2f24bc26a24dc82e824aed419c43811df92",
+                "reference": "ce90a2f24bc26a24dc82e824aed419c43811df92",
                 "shasum": ""
             },
             "require": {
                 "egulias/email-validator": "~2.0",
+                "ext-intl": "*",
                 "php": ">=5.6",
                 "yiisoft/yii2": "~2.0.5"
             },
@@ -52,7 +53,7 @@
                 "validation",
                 "yii2"
             ],
-            "time": "2017-11-17 20:48:06"
+            "time": "2017-11-18 13:08:39"
         },
         {
             "name": "bower-asset/bootstrap",
@@ -433,12 +434,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "d133cfc7f2a050c5e75e534c652d46f84292a9a9"
+                "reference": "3d218a09d989afd6bba34a7c46f63f79080737f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/d133cfc7f2a050c5e75e534c652d46f84292a9a9",
-                "reference": "d133cfc7f2a050c5e75e534c652d46f84292a9a9",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/3d218a09d989afd6bba34a7c46f63f79080737f7",
+                "reference": "3d218a09d989afd6bba34a7c46f63f79080737f7",
                 "shasum": ""
             },
             "require": {
@@ -525,7 +526,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2017-11-17T09:44:54+00:00"
+            "time": "2017-11-17 21:23:46"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -923,30 +924,32 @@
         },
         {
             "name": "doctrine/instantiator",
-            "version": "dev-master",
+            "version": "1.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/instantiator.git",
-                "reference": "7af8066e48b8a4cbd90849bbe9234ab444057968"
+                "reference": "8e884e78f9f0eb1329e445619e04456e64d8051d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/7af8066e48b8a4cbd90849bbe9234ab444057968",
-                "reference": "7af8066e48b8a4cbd90849bbe9234ab444057968",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/8e884e78f9f0eb1329e445619e04456e64d8051d",
+                "reference": "8e884e78f9f0eb1329e445619e04456e64d8051d",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1"
+                "php": ">=5.3,<8.0-DEV"
             },
             "require-dev": {
+                "athletic/athletic": "~0.1.8",
                 "ext-pdo": "*",
                 "ext-phar": "*",
-                "phpunit/phpunit": "^6.2.3"
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~2.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2.x-dev"
+                    "dev-master": "1.0.x-dev"
                 }
             },
             "autoload": {
@@ -971,7 +974,7 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2017-09-19T12:41:22+00:00"
+            "time": "2015-06-14T21:17:01+00:00"
         },
         {
             "name": "fzaninotto/faker",
@@ -2763,32 +2766,32 @@
         },
         {
             "name": "symfony/debug",
-            "version": "dev-master",
+            "version": "3.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "92697a71cd55c5852d0f19cd80e7fb6d1eb12b88"
+                "reference": "24b7bbfc7c1aed6540f8d5dc7ff9bb8467ac9e32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/92697a71cd55c5852d0f19cd80e7fb6d1eb12b88",
-                "reference": "92697a71cd55c5852d0f19cd80e7fb6d1eb12b88",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/24b7bbfc7c1aed6540f8d5dc7ff9bb8467ac9e32",
+                "reference": "24b7bbfc7c1aed6540f8d5dc7ff9bb8467ac9e32",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3",
+                "php": "^5.5.9|>=7.0.8",
                 "psr/log": "~1.0"
             },
             "conflict": {
-                "symfony/http-kernel": "<3.4"
+                "symfony/http-kernel": ">=2.3,<2.3.24|~2.4.0|>=2.5,<2.5.9|>=2.6,<2.6.2"
             },
             "require-dev": {
-                "symfony/http-kernel": "~3.4|~4.0"
+                "symfony/http-kernel": "~2.8|~3.0|~4.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.0-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -2815,7 +2818,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2017-11-12T16:47:31+00:00"
+            "time": "2017-11-11T15:39:06+00:00"
         },
         {
             "name": "symfony/dom-crawler",
