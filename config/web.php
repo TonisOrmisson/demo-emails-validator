@@ -7,12 +7,13 @@ $config = [
     'id' => 'basic',
     'defaultRoute' => '/emailsvalidator',
     'basePath' => dirname(__DIR__),
-    'bootstrap' => ['log','debug'],
+    'bootstrap' => ['log'],
     'modules'=>[
         'emailsvalidator'=>[
             'class'=>'andmemasin\emailsvalidator\Module',
             'accessPermissionName'=>'?',
             'maxInputKB' => 1,
+            '$displayFlashMessages',
         ],
 
     ],
