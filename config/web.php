@@ -12,7 +12,7 @@ $config = [
         'emailsvalidator'=>[
             'class'=>'andmemasin\emailsvalidator\Module',
             'accessPermissionName'=>'?',
-            'maxInputKB' => 1,
+            'maxInputKB' => 16,
             'displayFlashMessages'=>false,
         ],
 
